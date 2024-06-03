@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url('~/public/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url('~/public/fonts/Playfair_Display/PlayfairDisplay-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaBookC';
+    src: url('~/public/fonts/FuturaBookC/futurabookc.ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaDemiC';
+    src: url('~/public/fonts/FuturaDemiC/futurademic.ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zilla_Slab';
+    src: url('~/public/fonts/Zilla_Slab/ZillaSlab-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --color-primary: rgba(66, 90, 32, 1);
+    --color-primary-dark: rgba(68, 68, 68, 1);
+    --color-primary-inactive: rgba(68, 68, 68, 0.4);
+    --color-primary-light: rgba(255, 255, 255, 1);
+    --color-additional-dark: rgba(51, 51, 51, 1);
+    --color-additional-inactive: rgba(51, 51, 51, 0.5);
+    --color-text-dark: rgba(0, 0, 0, 1);
+    --color-text-medium: rgba(68, 68, 68, 0.9);
+}
+
+html {
+    font-size: 10px;
+    min-height: 100vh;
+}
+
+body {
+    height: 100%;
+    margin: 0 auto;
+    font-family: FuturaDemiC, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: var(--color-primary-dark);
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.divider {
+    height: 1.9rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    flex-shrink: 0;
+}
